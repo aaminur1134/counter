@@ -1,0 +1,42 @@
+body{
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(images/background.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    border:3px solid white;
+    border-radius: 5px;
+    background: url(images/hero.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: -20px -20px salmon;
+}
+h1{
+    color: blueviolet;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 4.4rem;
+}
+
+button{
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid #fefefe;
+    border-radius: 4px;
+    color: #fefefe;
+    background: rgba(0, 0,0, 0.56);
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background: rgb(0, 0, 0);
+}
