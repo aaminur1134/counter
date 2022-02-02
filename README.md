@@ -1,0 +1,2 @@
+# counter
+Basic JavaScript Project 
